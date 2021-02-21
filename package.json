@@ -1,0 +1,19 @@
+{
+  "name": "curso-ecmascript6",
+  "version": "1.0.0",
+  "description": "Entendiendo ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeruizmx/curso-emascript6.git"
+  },
+  "author": "Andres Ruiz <andres87aldos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeruizmx/curso-emascript6/issues"
+  },
+  "homepage": "https://github.com/aeruizmx/curso-emascript6#readme"
+}
