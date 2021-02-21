@@ -65,3 +65,44 @@ console.log(globalLet) //ReferenceError: globalLet is not defined
 const a = 'b'
 a = 'c' //TypeError: Assignment to constant variable.
 console.log(a)
+
+// OBJETOS
+let name = 'andres'
+let age = 33
+obj = { name: name, age: age}
+//ES6
+obj2 = {name, age}
+console.log(obj)
+console.log(obj2)
+
+//ARROW FUNCTIONS
+const names = [
+  {name:'Andres', age:33},
+  {name:'Maria', age:22}
+]
+let listOfNames = names.map(function (item){
+  console.log(item.name)
+})
+//ES6
+let listOfNamesES6 = names.map(item =>console.log(item.name))
+const listOfNames3 = (name, age, country) =>{
+  //Code
+}
+const listOfNames4 = name =>{
+  //Code
+}
+const square = num => num * num
+
+//PROMESAS
+const helloPromisse = () => {
+  return new Promise((resolve, reject) =>{
+    if(true){
+      resolve('Se resolvió')
+    } else {
+      reject('Se rechazo')
+    }
+  })
+}
+helloPromisse()
+  .then(response => console.log(response))
+  .catch(error => console.error(error))
